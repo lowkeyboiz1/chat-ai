@@ -22,7 +22,7 @@ export default function ChatHome() {
   const fileInputRef = useRef<HTMLInputElement>(null)
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const audioRefs = useRef<Record<string, HTMLAudioElement | null>>({})
-  console.log({ messages })
+
   // Toggle theme
   const toggleTheme = () => {
     const newTheme = theme === 'dark' ? 'light' : 'dark'
